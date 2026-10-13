@@ -14,7 +14,7 @@ const CONFIG = {
 
   // ---- Pantalla inicial (lluvia rosa). Cada palabra aparece una tras otra ----
   CUENTA_REGRESIVA: ["3", "2", "1"],
-  PALABRAS_INTRO: ["FELIZ", "CUMPLEAÑOS", "PARA", "TU NOMBRE"],
+  PALABRAS_INTRO: ["ESTE", "MOMENTO", "ES ", "SOLO PARA TI"],
 
   // ---- Mensaje del cielo estrellado y de la carta ----
   MENSAJE_CIELO: "Hice algo especial para ti ✨",
@@ -24,7 +24,7 @@ const CONFIG = {
   // Puedes cambiar las frases (cortas o largas, el cuadro se adapta).
   // Para cambiar una foto, reemplaza el archivo en assets/fotos/ o cambia "foto".
   PAGINAS: [
-    { foto: "assets/fotos/foto01.jpg", frase: "Escribe aquí tu primera frase ♥" },
+    { foto: "assets/fotos/foto01.jpg", frase: "Un pedacito de mí para ti ♥" },
     { foto: "assets/fotos/foto02.jpg", frase: "Cada foto guarda un momento contigo" },
     { foto: "assets/fotos/foto03.jpg", frase: "Tu sonrisa es mi parte favorita del día" },
     { foto: "assets/fotos/foto04.jpg", frase: "Contigo hasta lo simple se vuelve especial" },
@@ -35,7 +35,7 @@ const CONFIG = {
     { foto: "assets/fotos/foto09.jpg", frase: "No cambiaría ni un solo momento" },
     { foto: "assets/fotos/foto10.jpg", frase: "Te quiero muchísimo ♥" }
   ],
-  FRASE_FINAL: "Feliz cumpleaños ♥",   // se ve al cerrar el libro y en la pantalla final
+  FRASE_FINAL: "Los detalles no tienen fecha, solo intención ♥",   // se ve al cerrar el libro y en la pantalla final
 
   // ---- Portada del libro (se ve cerrado; al tocarla se abre y recién ahí aparecen las fotos) ----
   TITULO_PORTADA: "Para ti",
@@ -54,7 +54,17 @@ const CONFIG = {
   AJUSTE_FONDO: "cover",  // "cover" = llena toda la hoja; "contain" = se ve completa sin recortar
   // Textos iniciales opcionales de cada hoja blanca (11 hojas: la de la portada + una por foto).
   // Se pueden editar tocando la hoja; lo escrito se guarda en el navegador.
-  NOTAS: [],
+  NOTAS: ["Eres mi lugar favorito en este mundo 🌎❤️",
+  "Mi corazón te eligió y no deja de elegirte 💖✨",
+  "Contigo descubrí un amor que no sabía que existía 🌹🥰",
+  "Cada día te amo un poco más que el anterior 🌅💞",
+  "Tu sonrisa es mi momento favorito del día 😊🌻",
+  "No necesito mucho, solo tu compañía y tu amor 🤍🌙",
+  "Eres la razón de muchas de mis sonrisas 😍🌈",
+  "Mi amor por ti no se explica, se siente 💓🔥",
+  "Gracias por llegar a mi vida y hacerla más bonita 🌷💫",
+  "Si volviera a elegir, te elegiría una y mil veces 💍❤️",
+  "Eres mi presente, mi alegría y mi sueño más bonito 🌟🫶"],
   PLACEHOLDER_NOTA: "Escribe aquí ♥",
 
   // ---- Letra de la canción (panel izquierdo del libro) ----
