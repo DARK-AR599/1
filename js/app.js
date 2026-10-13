@@ -149,7 +149,7 @@ $('#card').onclick = () => openBook(0);
 const book = $('#book'); let page = 0, leaves = [], busy = false, target = 0;
 const L = N + 1, FLIP_MS = 1100, STEP_MS = 480;
 const noteKey = i => 'cumple_nota_' + i;
-const noteGet = i => { try { const v = localStorage.getItem(noteKey(i)); if (v !== null) return v; } catch(e){} return (CONFIG.NOTAS && CONFIG.NOTAS[i]) || ''; };
+const noteGet = i => { try { const v = localStorage.getItem(noteKey(i)); if (v) return v; } catch(e){} return (CONFIG.NOTAS && CONFIG.NOTAS[i]) || ''; };
 const noteSet = (i, v) => { try { localStorage.setItem(noteKey(i), v); } catch(e){} };
 
 function fitNote(ed){
